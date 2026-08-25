@@ -2,7 +2,6 @@
 
 <h1 align="center" id="title">de_coders</h1>
 
-<p align="center"><img src="https://socialify.git.ci/Raaaghavagrawal/hackOclock/image?font=KoHo&language=1&name=1&owner=1&stargazers=1&theme=Dark" alt="project-image"></p>
 
 <h2>❤️ Team Members</h2>
 
