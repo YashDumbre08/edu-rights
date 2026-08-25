@@ -12,7 +12,7 @@
 
 <div align="center">
 
-[![LegalChamps](https://img.shields.io/badge/Visit-LegalChamps-blue?style=for-the-badge)](https://edu-rights-icjtwk8rc-yash-dumbres-projects.vercel.app/)
+[![EduRights](https://img.shields.io/badge/Visit-LegalChamps-blue?style=for-the-badge)](https://edu-rights-icjtwk8rc-yash-dumbres-projects.vercel.app/)
 
 </div>
 
