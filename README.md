@@ -1,8 +1,3 @@
-
-
-<h1 align="center" id="title">de_coders</h1>
-
-
 <h2>❤️ Team Members</h2>
 
   
