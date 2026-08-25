@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { FaPhone, FaExclamationTriangle, FaHeadset, FaHandsHelping, FaShieldAlt, FaTwitter, FaLinkedin, FaGithub, FaExternalLinkAlt, FaTimes, FaGlobe } from 'react-icons/fa';
+import { FaPhone, FaExclamationTriangle, FaHeadset, FaHandsHelping, FaShieldAlt, FaTwitter, FaLinkedin, FaGithub, FaExternalLinkAlt, FaTimes, FaGlobe, FaInstagram } from 'react-icons/fa';
 import GameSection from './components/GameSection';
 import Header from './components/Header';
 import MiniGame from './components/MiniGame';
 import CommunityForum from './components/CommunityForum';
 import Learn from './components/Learn';
+import Reviews from './components/Reviews';
 import FeedbackForm from './components/FeedbackForm';
 import { GameProvider } from './contexts/GameContext';
 import CourtroomSimulator from './components/CourtroomSimulator';
@@ -160,13 +161,13 @@ function App() {
                 transition={{ duration: 0.5 }}
                 className="max-w-4xl mx-auto w-full"
               >
-                <span className="text-blue-600 text-xl font-semibold mb-4 block">Welcome to Legal Champs.</span>
-                <h1 className={`text-4xl sm:text-5xl md:text-6xl font-bold mb-6 ${darkMode ? 'text-white' : 'text-gray-800'} flex flex-col gap-4`}>
-                  Making Legal Rights
-                  <span className="text-blue-600">Fun & Easy</span>
+                <span className="text-blue-600 text-xl font-semibold mb-4 block">Welcome to EduRights.</span>
+                <h1 className={`text-4xl sm:text-5xl md:text-6xl font-bold mb-6 ${darkMode ? 'text-white' : 'text-grey-800'} flex flex-col gap-4`}>
+                 Know Your Rights, 
+                  <span className="text-red-600">Build Your Future</span>
                 </h1>
                 <p className={`text-lg sm:text-xl mb-8 max-w-2xl mx-auto ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-                  Embark on an exciting journey with thousands of kids across India to learn about your rights through thrilling adventures, fun games, and interactive stories. Start your path to becoming a Legal Champion today!
+                  Embark on an exciting journey with thousands of students across India to learn about your educational and legal rights through thrilling adventures, fun games, and interactive stories. Start your path to empowerment today!
                 </p>
                 
                 {/* Start Playing Button */}
@@ -640,6 +641,9 @@ function App() {
             </motion.div>
           )}
 
+          {/* Reviews Section */}
+          <Reviews darkMode={darkMode} />
+
           {/* Add this before the footer */}
           <section 
             id="feedback-section"
@@ -682,23 +686,23 @@ function App() {
                   <ul className={`space-y-2 ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
                     <li className="transition-colors duration-300 hover:text-blue-500">Email: dial1098@childlineindia.org.in</li>
                     <li className="transition-colors duration-300 hover:text-blue-500">Phone: +91-22-68251098</li>
-                    <li className="transition-colors duration-300 hover:text-blue-500">27A, B- wing, Chanchal Smruti, G D Ambekar Road, Shriram Industrial Estate, Kohinoor Mill, Wadala East, Mumbai, Maharashtra 400031</li>
+                    <li className="transition-colors duration-300 hover:text-blue-500">110, Arpan CHS, Ambika Nagar, M.G. Road, Dombivli West, Maharashtra 421202</li>
                   </ul>
                 </div>
                 <div className="transform transition-transform duration-300 hover:scale-105">
                   <h3 className={`text-lg font-semibold mb-4 ${darkMode ? 'text-white' : 'text-gray-800'}`}>Follow Us</h3>
                   <div className="flex space-x-6">
                     <a 
-                      href="https://x.com/Raghavvv23" 
+                      href="https://www.instagram.com/yash__dumbre/" 
                       className={`${darkMode ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'} flex items-center gap-2 transition-all duration-300 hover:scale-110 hover:text-blue-500`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <FaTwitter className="text-xl transform transition-transform duration-300 group-hover:rotate-12" />
-                      <span>Twitter</span>
+                      <FaInstagram className="text-xl transform transition-transform duration-300 group-hover:rotate-12" />
+                      <span>Instagram</span>
                     </a>
                     <a 
-                      href="https://www.linkedin.com/in/raghav-agrawal-4431932ab/" 
+                      href="www.linkedin.com/in/yash-dumbre-314472354" 
                       className={`${darkMode ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'} flex items-center gap-2 transition-all duration-300 hover:scale-110 hover:text-blue-500`}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -707,7 +711,7 @@ function App() {
                       <span>LinkedIn</span>
                     </a>
                     <a 
-                      href="https://github.com/Raaaghavagrawal/Raaaghavagrawal" 
+                      href="https://github.com/YashDumbre08" 
                       className={`${darkMode ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'} flex items-center gap-2 transition-all duration-300 hover:scale-110 hover:text-blue-500`}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -722,7 +726,7 @@ function App() {
               <div className={`mt-8 pt-8 border-t ${darkMode ? 'border-gray-800' : 'border-gray-200'}`}>
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                   <div className={`${darkMode ? 'text-gray-400' : 'text-gray-600'} transition-colors duration-300 hover:text-blue-500`}>
-                     Legal Champs.
+                     EduRights.
                      <div className={`mt-2 text-sm ${darkMode ? 'text-gray-500' : 'text-gray-500'}`}>
                        Legal Advisor: Mr. Rajesh Bhushan, BA LLB, Senior Advocate, J&K High Court
                        <span className="ml-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">

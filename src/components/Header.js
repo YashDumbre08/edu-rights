@@ -59,7 +59,7 @@ const Header = ({ darkMode, setDarkMode, onCommunityClick, onLearnClick, onLangu
               animate={{ opacity: 1, x: 0 }}
               className={`text-2xl font-bold ${darkMode ? 'text-white' : 'text-gray-800'}`}
             >
-              LegalChamps
+              EduRights
               <span className="text-blue-600">.</span>
             </motion.div>
 

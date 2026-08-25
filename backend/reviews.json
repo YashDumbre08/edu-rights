@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "reviewerName": "Aarav Mehta",
+    "role": "Student (Age 10)",
+    "rating": 5,
+    "comment": "Legal Champs made learning about my rights super fun! I loved the stories and games.",
+    "location": "Mumbai, India",
+    "date": "2025-12-05"
+  },
+  {
+    "id": 2,
+    "reviewerName": "Priya Sharma",
+    "role": "Parent",
+    "rating": 5,
+    "comment": "An amazing platform for kids. My child now understands rights in a simple and safe way.",
+    "location": "Delhi, India",
+    "date": "2025-11-20"
+  },
+  {
+    "id": 3,
+    "reviewerName": "Rohit Verma",
+    "role": "Teacher",
+    "rating": 4,
+    "comment": "Interactive stories and activities make legal concepts easy for young minds.",
+    "location": "Lucknow, India",
+    "date": "2025-11-15"
+  },
+  {
+    "id": 4,
+    "reviewerName": "Ananya Patel",
+    "role": "Student (Age 12)",
+    "rating": 5,
+    "comment": "I learned about child rights and laws while playing games. It never felt boring!",
+    "location": "Ahmedabad, India",
+    "date": "2025-10-30"
+  },
+  {
+    "id": 5,
+    "reviewerName": "Suresh Kumar",
+    "role": "Parent",
+    "rating": 4,
+    "comment": "A creative and educational platform that helps children learn important legal values.",
+    "location": "Bengaluru, India",
+    "date": "2025-10-10"
+  }
+]

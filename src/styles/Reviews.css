@@ -1,0 +1,128 @@
+.reviews-container {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.reviews-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.reviews-header h2 {
+  font-size: 2.5rem;
+  color: #1a3a52;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.reviews-header p {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.review-card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 5px solid #4CAF50;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.reviewer-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #1a3a52;
+  font-weight: 600;
+}
+
+.reviewer-role {
+  margin: 5px 0 0 0;
+  font-size: 0.9rem;
+  color: #999;
+  font-style: italic;
+}
+
+.review-rating {
+  display: flex;
+  gap: 3px;
+}
+
+.star {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.star.filled {
+  color: #FFB800;
+}
+
+.review-comment {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin: 15px 0;
+  font-style: italic;
+}
+
+.review-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.review-location {
+  font-weight: 500;
+  color: #4CAF50;
+}
+
+.review-date {
+  color: #bbb;
+}
+
+.reviews-loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .reviews-header h2 {
+    font-size: 2rem;
+  }
+
+  .reviews-container {
+    margin: 40px auto;
+  }
+}
