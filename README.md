@@ -35,7 +35,10 @@ Here're some of the project's best features:
 <h1 align="center">☁️ Project Screenshots:</h1>
 <h2 align="center"> Landing Page</h2>
 
-![image](https://github.com/user-attachments/assets/74f0ce38-525b-4e6d-bb49-7078f3e6b5f1")
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3d74f458-d4dc-4c83-a7b1-0b80b2416d7c" />
+" alt="Landing Page" width="800" />
+</p>
 
 
 <h2 align="center"> 24/7 Chatbot</h2>
