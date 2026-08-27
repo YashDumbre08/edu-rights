@@ -1,24 +1,18 @@
-
-
-<h1 align="center" id="title">de_coders</h1>
-
-<p align="center"><img src="https://socialify.git.ci/Raaaghavagrawal/hackOclock/image?font=KoHo&language=1&name=1&owner=1&stargazers=1&theme=Dark" alt="project-image"></p>
-
 <h2>❤️ Team Members</h2>
 
   
 
 
-*   Roohani Sharma
-*   Shivani Bhati
-*   Salil Gupta
-*   Raghav Agrawal 
+*   Yash Dumbre
+*   Ashish Parab
+*   Chinmay Mane
+*   Aryan Maurya 
 <h1 align="center">🚀 Demo</h1>
 
 
 <div align="center">
 
-[![LegalChamps](https://img.shields.io/badge/Visit-LegalChamps-blue?style=for-the-badge)](https://legalchamps-hackoclock.vercel.app/)
+[![EduRights](https://img.shields.io/badge/Visit-EduRights-blue?style=for-the-badge)](https://edu-rights-icjtwk8rc-yash-dumbres-projects.vercel.app/)
 
 </div>
 
@@ -41,7 +35,10 @@ Here're some of the project's best features:
 <h1 align="center">☁️ Project Screenshots:</h1>
 <h2 align="center"> Landing Page</h2>
 
-![image](https://github.com/user-attachments/assets/c1b4064f-8da1-4162-92f0-e415f8c76b4b)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3d74f458-d4dc-4c83-a7b1-0b80b2416d7c" />
+" alt="Landing Page" width="800" />
+</p>
 
 
 <h2 align="center"> 24/7 Chatbot</h2>
